@@ -22,6 +22,10 @@ Que quando for executado, irá mostrar um menu com as opções de exercícios di
 2. Jogo do Craps.
 3. Jogo de Batalha Naval.
 
+### Dúvidas e Sugestões
+
+Caso tenha alguma dúvida ou sugestão, abra uma [issue](https://github.com/italoseara/LPIII-Lista-1/issues), ou entre em contato comigo pelo [email](mailto:isseara.cic@uesc.com).
+
 ### Autor
 
 - [Italo Seara](https://github.com/italoseara)
