@@ -13,7 +13,7 @@ Os exercícios foram resolvidos utilizando a linguagem de programação Java.
 ### Execução
 
 Para executar os exercícios, basta abrir o arquivo `.java` desejado e executar o método `main` da classe.
-Alternativamente, pode-se executar o arquivo `Main.jar` presente na pasta na aba [Releases](https://github.com/italoseara/LPIII-Lista-1/releases) do repositório.
+Alternativamente, pode-se executar o arquivo `Main.jar` presente na aba [Releases](https://github.com/italoseara/LPIII-Lista-1/releases) do repositório.
 Que quando for executado, irá mostrar um menu com as opções de exercícios disponíveis.
 
 ### Exercícios
