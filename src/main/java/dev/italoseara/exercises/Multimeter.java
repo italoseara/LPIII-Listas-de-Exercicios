@@ -9,7 +9,6 @@ public class Multimeter {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Scan the measurements
         for (int i = 0; i < measurement.length; i++) {
             System.out.printf("Measurement %d: ", i);
             double read = scanner.nextDouble();
@@ -18,15 +17,14 @@ public class Multimeter {
             total += read;
         }
 
-        // Calculate average
         final double average = total / measurement.length;
 
-        // Calculate variance
         double variance = 0;
-        for (double v : measurement) variance += Math.pow(v - average, 2);
+        for (double v : measurement)
+            variance += Math.pow(v - average, 2);
         variance /= measurement.length;
 
-        // Calculate standard deviation
+        // Standard deviation
         double std = Math.sqrt(variance);
 
         System.out.println("Average: " + average);
