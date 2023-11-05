@@ -1,6 +1,6 @@
 # CET078 - 2023.2 - LPIII
 
-## Lista de exercícios 04
+## Lista de exercícios 05
 
 Os exercícios foram resolvidos utilizando a linguagem de programação Java.
 
