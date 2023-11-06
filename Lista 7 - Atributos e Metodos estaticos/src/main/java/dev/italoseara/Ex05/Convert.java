@@ -9,6 +9,10 @@ public class Convert {
         return kilogramsToOunces(gramsToKilograms(grams));
     }
 
+    public static double gramsToPounds(double grams) {
+        return kilogramsToPounds(gramsToKilograms(grams));
+    }
+
     public static double kilogramsToGrams(double kilograms) {
         return kilograms * 1000;
     }
@@ -27,6 +31,10 @@ public class Convert {
 
     public static double poundsToOunces(double pounds) {
         return pounds * 16;
+    }
+
+    public static double poundsToGrams(double pounds) {
+        return kilogramsToGrams(poundsToKilograms(pounds));
     }
 
     public static double ouncesToPounds(double ounces) {

@@ -5,7 +5,7 @@ public class Example {
         double grams = 1000;
         double kilograms = Convert.gramsToKilograms(grams);
         double ounces = Convert.gramsToOunces(grams);
-        double pounds = Convert.kilogramsToPounds(kilograms);
+        double pounds = Convert.gramsToPounds(grams);
 
         System.out.println(grams + " grams = " + kilograms + " kilograms");
         System.out.println(grams + " grams = " + ounces + " ounces");
@@ -27,7 +27,7 @@ public class Example {
         pounds = 1;
         kilograms = Convert.poundsToKilograms(pounds);
         ounces = Convert.poundsToOunces(pounds);
-        grams = Convert.kilogramsToGrams(kilograms);
+        grams = Convert.poundsToGrams(pounds);
 
         System.out.println(pounds + " pounds = " + kilograms + " kilograms");
         System.out.println(pounds + " pounds = " + ounces + " ounces");
