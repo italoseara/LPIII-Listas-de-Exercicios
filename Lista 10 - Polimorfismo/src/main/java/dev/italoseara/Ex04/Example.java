@@ -11,7 +11,8 @@ public class Example {
             System.out.println("1 - Adicionar contato");
             System.out.println("2 - Remover contato");
             System.out.println("3 - Listar contatos");
-            System.out.println("4 - Sair");
+            System.out.println("4 - Buscar contato");
+            System.out.println("5 - Sair");
             System.out.print("Opção: ");
             int opcao = scanner.nextInt();
             scanner.nextLine(); // Consume newline left-over
@@ -50,6 +51,19 @@ public class Example {
                     agenda.listContacts();
                     break;
                 case 4:
+                    System.out.print("CPF/CNPJ: ");
+                    String cpfCnpj = scanner.nextLine();
+                    Contact contact = agenda.findContactByCpf(cpfCnpj);
+                    if (contact == null) {
+                        contact = agenda.findContactByCnpj(cpfCnpj);
+                    }
+                    if (contact != null) {
+                        System.out.println(contact);
+                    } else {
+                        System.out.println("Contato não encontrado");
+                    }
+                    break;
+                case 5:
                     System.exit(0);
                     break;
                 default:
